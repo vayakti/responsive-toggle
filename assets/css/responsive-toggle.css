@@ -1,0 +1,61 @@
+/*	Responsive Toggle v1.0, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	========================================================================================= */
+
+/*	Table of Contents
+//	==================================================
+//		#Reset
+//		#Themes
+
+
+/*	#Reset
+//	================================================== */
+
+	.toggle {
+		margin: 0 0 20px 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	.toggle.bm-remove	{ margin-bottom: 0;    }
+	.toggle.bm-smaller	{ margin-bottom: 5px;  }
+	.toggle.bm-small	{ margin-bottom: 10px; }
+	.toggle.bm-medium	{ margin-bottom: 20px; }
+	.toggle.bm-large	{ margin-bottom: 30px; }
+	.toggle.bm-large	{ margin-bottom: 40px; }
+
+	.toggle li {
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+
+	.toggle li:last-child { margin-bottom: 0; }
+
+	.toggle li .toggle-head { cursor: pointer; }
+
+	.toggle li .toggle-head.active { font-weight: bold; }
+
+
+/*	#Themes
+//	================================================== */
+
+	.toggle-default.toggle li .toggle-head {
+		border: 1px solid #DDD;
+		padding: 10px 30px 10px 10px;
+		background: #FFF;
+		color: #0b8593;
+		line-height: normal;
+		position: relative;
+	}
+
+	.toggle-default.toggle li .toggle-head i {
+		position: absolute;
+		top: 12px;
+		right: 10px;
+	}
+
+	.toggle-default.toggle li .toggle-panel {
+		border: 1px solid #DDD;
+		border-top: 0;
+		padding: 20px;
+		background: #FFF;
+	}
