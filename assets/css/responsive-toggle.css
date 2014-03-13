@@ -1,5 +1,5 @@
-/*	Responsive Toggle v1.0, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
-//	========================================================================================= */
+/*	Responsive Toggle v1.0.1, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	=========================================================================================== */
 
 /*	Table of Contents
 //	==================================================
@@ -16,12 +16,20 @@
 		list-style-type: none;
 	}
 
-	.toggle.bm-remove	{ margin-bottom: 0;    }
-	.toggle.bm-smaller	{ margin-bottom: 5px;  }
-	.toggle.bm-small	{ margin-bottom: 10px; }
-	.toggle.bm-medium	{ margin-bottom: 20px; }
-	.toggle.bm-large	{ margin-bottom: 30px; }
-	.toggle.bm-large	{ margin-bottom: 40px; }
+	/* For use in conjunction with the Backbone Responsive Framework - https://github.com/joemottershaw/backbone */
+		.toggle.bm-remove	{ margin-bottom: 0;    }
+		.toggle.bm-smaller	{ margin-bottom: 5px;  }
+		.toggle.bm-small	{ margin-bottom: 10px; }
+		.toggle.bm-medium	{ margin-bottom: 20px; }
+		.toggle.bm-large	{ margin-bottom: 30px; }
+		.toggle.bm-larger	{ margin-bottom: 40px; }
+
+		.toggle.tm-remove	{ margin-top: 0;    }
+		.toggle.tm-smaller	{ margin-top: 5px;  }
+		.toggle.tm-small	{ margin-top: 10px; }
+		.toggle.tm-medium	{ margin-top: 20px; }
+		.toggle.tm-large	{ margin-top: 30px; }
+		.toggle.tm-larger	{ margin-top: 40px; }
 
 	.toggle li {
 		margin: 0 0 10px 0;

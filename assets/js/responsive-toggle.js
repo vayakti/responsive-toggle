@@ -1,5 +1,5 @@
-//	Responsive Toggle v1.0, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
-//	=========================================================================================
+//	Responsive Toggle v1.0.1, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	===========================================================================================
 
 	$(document).ready(function() {
 		// Initiate
